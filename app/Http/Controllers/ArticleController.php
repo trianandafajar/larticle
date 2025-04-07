@@ -72,3 +72,4 @@ class ArticleController extends Controller
         return response()->json(['message' => 'Failed to delete article'], 500);
     }
 }
+    
